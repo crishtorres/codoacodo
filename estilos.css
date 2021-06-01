@@ -480,6 +480,8 @@ body {
 		cursor: pointer;
 		color: #fff;
 		background-color: #1C91CB;
+		display: block;
+    	margin-top: 1rem;
 	}
 
 	.btn-comprar:hover {

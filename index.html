@@ -12,106 +12,49 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- Bootstrap -->
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
- -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+ 
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 
 
 	<title>Juguetería</title>
 </head>
-<body>
-	<header class="header center">
-		<div class="div-logo">
-			<a href="index.html">
-				<img src="images/logo.jpg">
-			</a>
-		</div>
+	<body>
+		<header class="header center">
+			
+		</header>
 
-		<div class="publi">
-			<img src="images/hotsale.png">
-		</div>
+		<div class="content">
+			<div class="slider">
+				<img src="images/slider2.jpg">
+			</div>
 
-		<nav id="nav">
-			<a href="index.html"><i class="fas fa-home"></i> Inicio</a>
-			<a href="productos.html"><i class="fas fa-layer-group"></i> Productos</a>			
-			<a href="nosotros.html"><i class="far fa-address-card"></i> Nosotros</a>
-			<a href="contacto.html"><i class="fas fa-at"></i> Contacto</a>
-		</nav>
-	</header>
+			<div class="center">
+				<h1 class="title">Algunos de nuestros productos</h1>			
 
-	<div class="content">
-		<div class="slider">
-			<img src="images/slider2.jpg">
-		</div>
-
-		<div class="center">
-			<h1 class="title">Algunos de nuestros productos</h1>			
-
-			<div class="productos" id="productos_destacados">
-				<!-- <div class="item">
-					<img src="images/juguete1.jpg">
-					<p class="title">Muñeco Pikachu</p>
-					<p class="price">$ 1500</p>
-					<a class="btn-ver" href="producto.html">Ver</a>
+				<div class="productos" id="productos_destacados">
+					
 				</div>
 
-				<div class="item">
-					<img src="images/juguete2.jpg">
-					<p class="title">Peluche Mini Yoda</p>
-					<p class="price">$ 1700</p>
-					<a class="btn-ver" href="producto.html">Ver</a>
-				</div>
-
-				<div class="item">
-					<img src="images/juguete3.jpg">
-					<p class="title">Juguete interactivo</p>
-					<p class="price">$ 2500</p>
-					<a class="btn-ver" href="producto.html">Ver</a>				
-				</div>
-
-				<div class="item">
-					<img src="images/juguete4.jpg">
-					<p class="title">Auto Andador</p>
-					<p class="price">$ 9500</p>
-					<a class="btn-ver" href="producto.html">Ver</a>				
-				</div> -->
 			</div>
 
 		</div>
 
-	</div>
-
-	<div class="medios">
-		<img src="images/medios.png">
-	</div>
-
-	<footer class="footer">
-		<div class="center">
-			<div class="logo-footer">
-				<img src="images/logo.png">			
-			</div>
-
-			<div class="datos">
-				<p>Calle Falsa 123</p>
-				<p>CABA, Buenos Aires, Argentina</p>
-				<p>+ 549 1112345667</p>
-			</div>
-
-			<div class="links-footer">
-				<a href="index.html">Inicio</a><br>
-				<a href="productos.html">Productos</a><br>				
-				<a href="nosotros.html">Nosotros</a><br>
-				<a href="contacto.html">Contacto</a>
-			</div>
+		<div class="medios">
+			<img src="images/medios.png">
 		</div>
-	</footer>
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+		<!-- Bootstrap -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+		<footer class="footer">
 
-	<!-- jQuery -->
-    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-	<!-- Bootstrap -->
-	<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
+		</footer>
+		<script type="text/javascript" src="productos.js"></script>	
+		<script type="text/javascript" src="main.js"></script>
 
-	<script type="text/javascript" src="productos.js"></script>	
-	<script type="text/javascript" src="main.js"></script>
-</body>
+		<script>
+			carga_articulos_destacados();
+		</script>
+	</body>
 </html>
